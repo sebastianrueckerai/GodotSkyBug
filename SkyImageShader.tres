@@ -1,0 +1,8 @@
+[gd_resource type="ShaderMaterial" load_steps=3 format=3 uid="uid://bu1w4i1kybm75"]
+
+[ext_resource type="Shader" path="res://SkyImageShader.gdshader" id="1_m746r"]
+[ext_resource type="Texture2D" uid="uid://c8flncv5kuxkb" path="res://G1.jpg" id="2_gdjgc"]
+
+[resource]
+shader = ExtResource("1_m746r")
+shader_parameter/img = ExtResource("2_gdjgc")

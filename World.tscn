@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjlnw5b7lxy4n"]
+
+[ext_resource type="Material" uid="uid://bu1w4i1kybm75" path="res://SkyImageShader.tres" id="1_arp7g"]
+
+[sub_resource type="Sky" id="Sky_d1ed4"]
+sky_material = ExtResource("1_arp7g")
+
+[sub_resource type="Environment" id="Environment_mu4ol"]
+background_mode = 2
+sky = SubResource("Sky_d1ed4")
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_mu4ol")
